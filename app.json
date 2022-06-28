@@ -1,8 +1,8 @@
 {
-    "name": "MusicKyura",
+    "name": "𒅒• !! 🇸 🇴 🇺 🇷 🇨 🇪  🇲 🇺 🇸 🇮 🇨  🇹 🇴 🇲ᵛ͢ᵎᵖ 𒅒",
     "description": "Music allow you to stream music trought the telegram voice chat feature.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/adhamsamyelshora/SMSMNEWMUSIXSPEED",
+    "repository": "https://github.com/ahmedtom/music-ahmed",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
@@ -46,7 +46,7 @@
          "CHANNEL": {
             "description": "Isi dengan username channel tanpa @",
             "required": true,
-            "value": "KyuraProjects"
+            "value": "Tom01255"
         },
         "SUDO_USERS": {
             "description": "fill with the user id who can access all function in your bot (separate with space).",
@@ -71,7 +71,7 @@
     },
     "buildpacks": [
     {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+      "url": "https://github.com/ahmedtom/music-ahmed.git"
     },
     {
       "url": "heroku/python"
