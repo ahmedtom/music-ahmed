@@ -1,4 +1,4 @@
-lfrom pyrogram.types import (
+ from pyrogram.types import (
     CallbackQuery,
     InlineKeyboardButton,
     InlineKeyboardMarkup,
