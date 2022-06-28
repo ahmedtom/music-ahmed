@@ -1,98 +1,69 @@
-<h2 align="centre">Kyura Music Player</h2>
+##### https://t.me/Tom01255
 
+<p align="center"><a href="https://t.me/Tom01212bot"><img src="https://github.com/ahmedtom/new-music"></a></p>
 <p align="center">
-  <img src="https://telegra.ph/file/e42317e82b1c9e8c60c2a.jpg">
+    <br><b>Video Stream is an Advanced Telegram Bot that's allow you to play Video & Music on Telegram Group Video Chat</b><br>
+</p>
+<p align="center">
+    <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
+    
+
+[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@UU_333/StringSession#main.py) ``Pyrogram``
+
+## 🎭 Preview
+<p align="center">
+  <img src="https://telegra.ph//file/cdcf6e35335e7a01f0948.jpg">
 </p>
 
-<h3>Requirements 📝</h3>
+## ✨ Features
+- Music & Video stream support
+- MultiChat support
+- Playlist & Queue support
+- Skip, Pause, Resume, Stop feature
+- Music & Video downloader feature
+- Inline Search support
+- YouTube direct search support
+- YouTube/Local/Live/m3u8 stream support
+- Inline Search support
+- Control With Button support
+- Volume Control
+- Userbot Auto Join
+- Direct Updater
 
-- FFmpeg (Latest)
-- NodeJS [nodesource.com](https://nodesource.com/) (NodeJS 17+)
-- Python (3.10+)
-- [PyTgCalls](https://github.com/pytgcalls/pytgcalls) (Lastest)
-- [MongoDB](https://cloud.mongodb.com/) (3.12.1)
-- [2nd Telegram Account](https://telegram.org/blog/themes-accounts#multiple-accounts) (needed for userbot)
-
-### Commands 🛠
-#### For all in group
-- `/play` - reply to youtube url or song file to play song
-- `/vplay` - reply to youtube url or song file to play song
-- `/song <song name>` - download songs you want quickly
-- `/search <query>` - search videos on youtube with details
-- `/lyrics <query>` - search lyrics from web
-#### Admins only
-- `/pause` - pause song play
-- `/resume` - resume song play
-- `/skip` - play next song
-- `/end` - stop music play
-- `/vstop` - stop video stream
-- `/vpause` - pause video stream
-- `/vresume` - resume video stream
-- `/vskip` - skip video stream
-
-### Commands for Sudo Users ⚔️
-- `/userbotleaveall` - remove assistant from all chats
-- `/broadcast <reply to message>` - globally brodcast replied message to all chats
-- `/pmpermit [on/off]` - enable/disable pmpermit message
-
-#### Pmpermit
-- `.a` - approove someone to pm you
-- `.da` - disapproove someone to pm you
-- You can add a custom pmpermit message by adding var `PMMSG` and adding your message through env vars (for heroku, Settings/Edit vars)
-+ Sudo Users can execute any command in any groups
-
-## String Session :
-[![GenerateStringName](https://img.shields.io/badge/repl.it-generateStringName-white)](https://replit.com/@rizkyhmdanii16/StringSession)
-
+|
 
 ## Heroku Deployment 💜
 The easy way to host this bot, deploy to Heroku, Change the app country to Europe (it will help to make the bot stable).
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/devbarlo/barloVCsource)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ahmedtom/new-music.git)
 
+### Deploy On OkTeto
 
-## Credits
-- DaisyXMusic 
-- callmusic 
-- VCPlayerBot
-- Veez
-- TGVCBot
-- Yukki
-- PyTgCalls
+[![Deploy+On+Okteto](https://img.shields.io/badge/Deploy%20To%20Okteto-informational?style=for-the-badge&logo=Okteto)](https://cloud.okteto.com/deploy?repository=https://github.com/IAMBIKASHHALDER/bgtxmusicbot)
 
-#### Contributors
-- [Kyy](https://github.com/muhammadrizky16): Nasty Owner
-- [KenKan](https://github.com/kenkansaja): Contributor
-- [xD_ShaShank](https://github.com/theshashankk): Yukki Dev
-- [VegetaxD](http://github.com/VegetaxD): Yukki Owner 
-- [Laky](https://github.com/Laky-64): PyTgCalls Developer
-- [Dan](https://github.com/delivrance): Pyrogram Developer
-- [NotReallyShikhar](https://github.com/NotReallyShikhar) : Dev Yukki
-#### Special Credits
-- [Roj Serbest](http://github.com/rojserbest): Callsmusic Developer
-- [VegetaxD](http://github.com/VegetaxD): Video Stream Developer
-- [Laky](https://github.com/Laky-64): PyTgCalls Developer
-- [Dan](https://github.com/delivrance): Pyrogram Developer
+## VPS Deployment 📡
+Get the best Quality of streaming performance by hosting it on VPS, here's the step's:
 
-This bot is based on the original work done by [Rojserbest](http://github.com/rojserbest). Without his hardwork YukkiMusicPlayer won t exist. 
-YukkiMusicPlayer is a modified version of [Callsmusic](https://github.com/callsmusic/callsmusic) for fit the needs of some users
+```sh
+sudo apt update && apt upgrade -y
+sudo apt install git curl python3-pip ffmpeg -y
+pip3 install -U pip
+curl -sL https://deb.nodesource.com/setup_16.x | bash -
+sudo apt-get install -y nodejs
+npm i -g npm
+git clone https://github.com/ahmedtom/Tom-Music # clone the repo.
+cd video-stream
+pip3 install -U -r requirements.txt
+cp example.env .env # use vim to edit ENVs
+vim .env # fill up the ENVs (Steps: press i to enter in insert mode then edit the file. Press Esc to exit the editing mode then type :wq! and press Enter key to save the file).
+python3 main.py # run the bot.
 
-- [StarkGang](https://github.com/StarkGang/)
-- [SpEcHiDe](https://github.com/SpEcHiDe/)
-- [The Hamker Cat](https://github.com/thehamkercat)
-- [Laky (for PyTgCalls)](https://github.com/Laky-64)
-- [Dan (for pyrogram)](https://github.com/delivrance)
-- [VegetaxD (For Yukki Repo)](http://github.com/VegetaxD)
+# continue the host with screen or anything else, thanks for reading.
+```
 
-#### Open Source codes used in this project 
-- https://github.com/callsmusic/callsmusic : Source code used here as base
-- https://github.com/DevsExpo/FridayUserbot/blob/master/main_startup/helper_func/basic_helpers.py : Functioms from line 275 to 351
-- https://github.com/TheHamkerCat/WilliamButcherBot/blob/dev/wbb/modules/music.py : From lines 170 to 178
+# Credits 💖
 
-
-> This project exists thanks to these awesome developers and their codes and contributions.
-> And credits goes to all who supported, all who helped and API & environmental requirement package devs and all projects helped in making this project.
-> Special thanks to you for using bot
-
-### Support & Updates 
-<a href="https://t.me/KyuraSupport"><img src="https://img.shields.io/badge/Join-Group%20Support-red.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/KyuraProjects"><img src="https://img.shields.io/badge/Join-Updates%20Channel-white.svg?style=for-the-badge&logo=Telegram"></a>
+- [Tom](https://github.com/tom011500976/Tom-musicly.git) ``Dev``
+### Developer & Source 🎑
+<a href="https://t.me/UU_333"><img src="https://img.shields.io/badge/To communicate-with the developer-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/Tom01255"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+></a>
